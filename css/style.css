@@ -1,0 +1,79 @@
+#game-box, #entry, #players-mode, #game-info, #lang, #winner{
+  width: 310px;
+  height: 60%;
+  margin: auto;
+  margin-top: 90px;
+  background-color: #b366ff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+
+}
+body{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+  font-weight: normal;
+}
+#game-box, #entry, #players-mode, #game-info, #winner{
+  display: none;
+}
+
+#entry button{
+  width: 80px;
+  margin: 20px;
+}
+
+.back{
+  margin-top: 5%;
+}
+table{
+  border: solid 3px;
+  margin: auto;
+  width: 280px;
+  height: 280px;
+}
+
+tr{
+  border: solid 3px;
+}
+td{
+  border: solid 3px;
+  background: orange;
+  width:80px;
+  height: 90px;
+  text-align: center;
+}
+h1{
+  margin:0px;
+}
+
+
+button.eng, button.fr{
+  margin-top: 10%;
+  width: 180px;
+  height: 50px;
+}
+button:hover{
+ box-shadow: 3px 5px 6px;
+}
+button{
+  width: 180px;
+  height: 50px;
+  margin: auto;
+  border: 2px solid;
+  border-radius: 5px;
+}
+button.eng{
+  background: #ffffff;
+  color: red;
+}
+
+button.fr{
+ background: #ffffff;
+ color: blue;
+}
